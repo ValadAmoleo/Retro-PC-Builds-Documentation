@@ -38,7 +38,7 @@ Alternative GPUs
 
 ## Reasoning
 
-- The Creative version of the TNT2 Ultra supports stencil shadows in Unreal and they owned the patent to it.
+- The [Creative version of the TNT2 Ultra supports stencil shadows in Unreal](https://www.vogons.org/viewtopic.php?t=27473) and they owned the patent to it.
 
 ---
 
