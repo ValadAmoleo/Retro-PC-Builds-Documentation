@@ -14,19 +14,20 @@ To create a PC that runs Batman Arkham Asylum, with PhysX, at 1920x1080 (or Full
 
 ## Build Specs
 
-| Component          | Model                         | Release Date                | Status         |
-|-------------------|--------------------------------------------------------|----------------|
-| **CPU**           | Intel Core 2 Quad Q9550       | March 2008        | ✔️ Found        |
-| **Motherboard**   | ASRock N7AD-SLI nForce 740i |  | ✔️ Found |
-| **RAM**           | 4x 2GB DDR2                 | N/A |                           | ✔️ Found        |
-| **GPU (SLI)**     | NVIDIA GTX 295              | January 2009 |           | ✔️ Arrived (£73) |
-| **GPU (SLI)**   | NVIDIA GTX 295        | January 2009  | ✔️ Arrived (£21) |
-| **GPU (PhysX or Single GPU)**    | NVIDIA GTX 285     | January 2009 |                | ✔️ Ordered (£15) |
-| **Sound Card**    | Creative X-Fi Elite Pro         | August 2005 |     | ✔️ Arrived (£20) |
-| **Storage**       | 256GB SSD                         | N/A |                     | ✔️ Found        |
-| **Optical**       | ZuluIDE (IDE bridge for legacy CD/DVD)     | N/A |           | 🕓 Planned (£100) |
-| **CPU Cooler**    | Thermalright Peerless Assassin 120 MINI    | N/A |           | 🕓 Planned but might not fit correctly |
-| **Power Supply**  | EVGA Supernova 1000W G3                    | N/A |           | ✔️ Found|
+
+| Component            | Model                                         | Release Date     | Status              |
+|---------------------|-----------------------------------------------|------------------|---------------------|
+| **CPU**             | Intel Core 2 Quad Q9550                       | March 2008       | ✔️ Found             |
+| **Motherboard**     | ASRock N7AD-SLI (nForce 740i)                 | 2008             | ✔️ Found             |
+| **RAM**             | 4× 2GB DDR2                                   | N/A              | ✔️ Found             |
+| **GPU (SLI)**       | NVIDIA GTX 295                                | Jan 2009         | ✔️ Arrived (£73)     |
+| **GPU (SLI)**       | NVIDIA GTX 295 (second card)                  | Jan 2009         | ✔️ Ordered (£21)     |
+| **GPU (Alt./PhysX)**| NVIDIA GTX 285                                | Jan 2009         | ✔️ Ordered (£15)     |
+| **Sound Card**      | Creative X-Fi Elite Pro                       | Aug 2005         | ✔️ Arrived (£20)     |
+| **Storage**         | 256GB SSD                                     | N/A              | ✔️ Found             |
+| **Optical Drive**   | ZuluIDE (IDE bridge for legacy CD/DVD drives) | N/A              | 🕓 Planned (£100)    |
+| **CPU Cooler**      | Thermalright Peerless Assassin 120 MINI       | N/A              | 🕓 Planned (test fit)|
+| **Power Supply**    | EVGA Supernova 1000W G3                       | 2016             | ✔️ Found             |
 
 ---
 
