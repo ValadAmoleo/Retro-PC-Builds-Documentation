@@ -21,8 +21,8 @@ To create a PC that runs Batman Arkham Asylum, with PhysX, at 1920x1080 (or Full
 | **Motherboard**     | ASRock N7AD-SLI (nForce 740i)                 | 2008             | ✔️ Found             |
 | **RAM**             | 4× 2GB DDR2                                   | N/A              | ✔️ Found             |
 | **GPU (SLI)**       | NVIDIA GTX 295                                | Jan 2009         | ✔️ Arrived (£73)     |
-| **GPU (SLI)**       | NVIDIA GTX 295 (second card)                  | Jan 2009         | ✔️ Ordered (£21)     |
-| **GPU (Alt./PhysX)**| NVIDIA GTX 285                                | Jan 2009         | ✔️ Ordered (£15)     |
+| **GPU (SLI)**       | NVIDIA GTX 295 (second card)                  | Jan 2009         | ✔️ Arrived (£21)     |
+| **GPU (Alt./PhysX)**| NVIDIA GTX 285                                | Jan 2009         | ✔️ Arrived (£15)     |
 | **Sound Card**      | Creative X-Fi Elite Pro                       | Aug 2005         | ✔️ Arrived (£20)     |
 | **Storage**         | 256GB SSD                                     | N/A              | ✔️ Found             |
 | **Optical Drive**   | ZuluIDE (IDE bridge for legacy CD/DVD drives) | N/A              | 🕓 Planned (£100)    |
