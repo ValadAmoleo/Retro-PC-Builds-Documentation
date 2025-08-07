@@ -60,6 +60,7 @@ While Windows 10 would have been fine for this build I decided to go with Window
 ## Setup Tips
 
 - Document how to get Steam working.
+- Explain using Legacy Update.
 
 ---
 
