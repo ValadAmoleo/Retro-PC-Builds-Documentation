@@ -17,16 +17,16 @@ To create a PC that runs Batman Arkham Asylum, with PhysX, at 1920x1080 (or Full
 
 | Component            | Model                                         | Release Date     | Status              |
 |---------------------|-----------------------------------------------|------------------|---------------------|
-| **CPU**             | Intel Core 2 Quad Q9550                       | March 2008       | ✔️ Found             |
-| **Motherboard**     | ASRock N7AD-SLI (nForce 740i)                 | 2008             | ✔️ Found             |
-| **RAM**             | 4× 2GB DDR2                                   | N/A              | ✔️ Found             |
+| **CPU**             | Intel Core 2 Extreme QX9650                   | Nov 2007         | ✔️ Arrived (w/ Mobo) |
+| **Motherboard**     | XFX nFORCE 790i ULTRA                         | 2008             | ✔️ Arrived (£37)     |
+| **RAM**             | 4× 1GB DDR3                                   | N/A              | ✔️ Arrived (w/ Mobo) |
 | **GPU (SLI)**       | NVIDIA GTX 295                                | Jan 2009         | ✔️ Arrived (£73)     |
-| **GPU (SLI)**       | NVIDIA GTX 295 (second card)                  | Jan 2009         | ✔️ Arrived (£21)     |
+| **GPU (SLI)**       | NVIDIA GTX 295                                | Jan 2009         | ✔️ Arrived (£21)     |
 | **GPU (Alt./PhysX)**| NVIDIA GTX 285                                | Jan 2009         | ✔️ Arrived (£15)     |
-| **Sound Card**      | Creative X-Fi Elite Pro                       | Aug 2005         | ✔️ Arrived (£20)     |
-| **Storage**         | 256GB SSD                                     | N/A              | ✔️ Found             |
+| **Sound Card**      | Motherboard Realtek HD Audio                  | N/A              | ✔️ Arrived (£20)     |
+| **Storage**         | 256GB SSD                                     | N/A              | ✔️ Arrived (w/ Mobo) |
 | **Optical Drive**   | ZuluIDE (IDE bridge for legacy CD/DVD drives) | N/A              | 🕓 Planned (£100)    |
-| **CPU Cooler**      | Thermalright Peerless Assassin 120 MINI       | N/A              | 🕓 Planned (test fit)|
+| **CPU Cooler**      | Cooler Master X Dream i117                    | N/A              | ✔️ Arrived (£9)      |
 | **Power Supply**    | EVGA Supernova 1000W G3                       | 2016             | ✔️ Found             |
 
 ---
@@ -53,14 +53,17 @@ While Windows 10 would have been fine for this build I decided to go with Window
 ## Issues Encountered
 
 - The ASRock N7AD-SLI nForce 740i, that I already had from my PC in the late 2000s, worked fine with the single GTX 295.  But as soon as I added a second GTX 295 performance tanked.  I believe this is because the cards were being starved off bandwidth.
+- Unfortunately after buying the nForce 790i I was still getting very similar results in the Batman Arkham Asylum Scarecrow level with PhysX on high.  The frame rate would drop to around 18fps.  I tried multiple driver versions, PhysX versions, combinations of SLI, Quad SLI and single GPU rendering.  I even added the GTX 285 in to use as a dedicated PhysX card. All had the same result.  This means it's pointing at the Intel Core 2 Extreme QX9650 being the problem.  So will have to look into going more modern with the CPU/Motherboard.
+- The Thermalright Peerless Assassin 120 MINI can not be forced to fit.
+- I removed the Creative X-Fi Elite as the GTX 285 was covering the only PCI slot on the board.  Currently just using the onboard Realtek HD Audio, which is fine and supports 7.1 out.  Doesn't seem like any PCI-e Sound Blaster's support 7.1 so will likely stick with the onboard.
 
   
 ---
 
 ## Setup Tips
 
-- Document how to get Steam working.
-- Explain using Legacy Update.
+- For Steam I use this [Steam (Mar 6th 2024)](https://archive.org/details/Steam_Windows_7) and then create a [custom Steam.CFG file](https://blog.lightwo.net/steam-client-downgrades-survival-kit.html#editing-steamcfg).
+- Use [Legacy Update](https://legacyupdate.net/).  Install this first and make sure Windows 7 is up to date.
 
 ---
 
