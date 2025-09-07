@@ -17,9 +17,9 @@ To create a PC that runs Batman Arkham Asylum, with PhysX, at 1920x1080 (or Full
 
 | Component            | Model                                         | Release Date     | Status              |
 |---------------------|-----------------------------------------------|------------------|---------------------|
-| **CPU**             | Intel Core i7-4770K                           | Nov 2007         | ✔️ Found             |
-| **Motherboard**     | Gigabyte GA-Z87X-UD3H                         | ??               | ✔️ Found             |
-| **RAM**             | 2× 4GB DDR3                                   | N/A              | ✔️ Found             |
+| **CPU**             | Intel Core i7-4770K                           | Jun 2013         | ✔️ Found             |
+| **Motherboard**     | Gigabyte GA-Z87X-UD3H                         | Aug 2013         | ✔️ Found             |
+| **RAM**             | 2× 8GB DDR3                                   | N/A              | ✔️ Found             |
 | **GPU (SLI)**       | NVIDIA GTX 295                                | Jan 2009         | ✔️ Arrived (£73)     |
 | **GPU (SLI)**       | NVIDIA GTX 295                                | Jan 2009         | ✔️ Arrived (£21)     |
 | **GPU (Alt./PhysX)**| NVIDIA GTX 285                                | Jan 2009         | ✔️ Arrived (£15)     |
