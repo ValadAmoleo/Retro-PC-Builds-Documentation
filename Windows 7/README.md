@@ -17,9 +17,9 @@ To create a PC that runs Batman Arkham Asylum, with PhysX, at 1920x1080 (or Full
 
 | Component            | Model                                         | Release Date     | Status              |
 |---------------------|-----------------------------------------------|------------------|---------------------|
-| **CPU**             | Intel Core 2 Extreme QX9650                   | Nov 2007         | ✔️ Arrived (w/ Mobo) |
-| **Motherboard**     | XFX nFORCE 790i ULTRA                         | 2008             | ✔️ Arrived (£37)     |
-| **RAM**             | 4× 1GB DDR3                                   | N/A              | ✔️ Arrived (w/ Mobo) |
+| **CPU**             | Intel Core i7-4770K                           | Nov 2007         | ✔️ Found             |
+| **Motherboard**     | Gigabyte GA-Z87X-UD3H                         | ??               | ✔️ Found             |
+| **RAM**             | 2× 4GB DDR3                                   | N/A              | ✔️ Found             |
 | **GPU (SLI)**       | NVIDIA GTX 295                                | Jan 2009         | ✔️ Arrived (£73)     |
 | **GPU (SLI)**       | NVIDIA GTX 295                                | Jan 2009         | ✔️ Arrived (£21)     |
 | **GPU (Alt./PhysX)**| NVIDIA GTX 285                                | Jan 2009         | ✔️ Arrived (£15)     |
@@ -53,8 +53,10 @@ While Windows 10 would have been fine for this build I decided to go with Window
 ## Issues Encountered
 
 - The ASRock N7AD-SLI nForce 740i, that I already had from my PC in the late 2000s, worked fine with the single GTX 295.  But as soon as I added a second GTX 295 performance tanked.  I believe this is because the cards were being starved off bandwidth.
-- Unfortunately after buying the nForce 790i I was still getting very similar results in the Batman Arkham Asylum Scarecrow level with PhysX on high.  The frame rate would drop to around 18fps.  I tried multiple driver versions, PhysX versions, combinations of SLI, Quad SLI and single GPU rendering.  I even added the GTX 285 in to use as a dedicated PhysX card. All had the same result.  This means it's pointing at the Intel Core 2 Extreme QX9650 being the problem.  So will have to look into going more modern with the CPU/Motherboard.
-- The Thermalright Peerless Assassin 120 MINI can not be forced to fit.
+- Unfortunately after buying the nForce 790i I was still getting very similar results in the Batman Arkham Asylum Scarecrow level with PhysX on high (drops to single digit FPS).  The frame rate would drop to around 18fps.  I tried multiple driver versions, PhysX versions, combinations of SLI, Quad SLI and single GPU rendering.  I even added the GTX 285 in to use as a dedicated PhysX card. All had the same result.  This means it's pointing at the Intel Core 2 Extreme QX9650 being the problem.  So will have to look into going more modern with the CPU/Motherboard.
+- In the end I had to swap out the CPU & Motherboard.  It's definitely a CPU limitiation with the number of PhysX objects on the Scarecrow level.  Moving to a Intel Core i7 4770K eased this but did not completely solve it, I now get drops to 18fps.  There is no feature loss in moving from a QX9650 to 4770K, but there is feature gain (SSE4.2 & HyperThreading).  So will need to check for any quirks that are not period accurate.
+- Also of interest is that the DDR3 RAM from the XFX nForce 790i ULTRA motherboard did not work in the Z87X motherboard.
+- The Thermalright Peerless Assassin 120 MINI can not be forced to fit a Socket 775.
 - I removed the Creative X-Fi Elite as the GTX 285 was covering the only PCI slot on the board.  Currently just using the onboard Realtek HD Audio, which is fine and supports 7.1 out.  Doesn't seem like any PCI-e Sound Blaster's support 7.1 so will likely stick with the onboard.
 
   
