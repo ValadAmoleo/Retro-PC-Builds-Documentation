@@ -4,7 +4,7 @@ This machine is part of my personal retro PC project, tailored for running Windo
 
 ## History
 
-I [found out that Batman Arkham Asylum seems to have PhysX issues on any GPU after the Tesla architecture](www.resetera.com/threads/rtx-50-series-gpus-have-dropped-support-for-32-bit-physx-many-older-pc-games-are-impacted-mirrors-edge-borderlands-etc.1111698/page-9#post-136180425) and decided that I wanted to start having PC builds to support specific eras of gaming.
+I [found out that Batman Arkham Asylum seems to have PhysX issues on any GPU after the Tesla architecture](http://www.resetera.com/threads/rtx-50-series-gpus-have-dropped-support-for-32-bit-physx-many-older-pc-games-are-impacted-mirrors-edge-borderlands-etc.1111698/page-9#post-136180425) and decided that I wanted to start having PC builds to support specific eras of gaming.
 
 ---
 
